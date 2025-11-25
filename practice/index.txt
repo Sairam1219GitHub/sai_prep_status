@@ -1,0 +1,138 @@
+JavaScript is programming language is a high level language 
+
+there two types of language 
+1. High level language - human readable languages like javascript, c, C++, Python 
+2. Low level language - mechine can understand
+
+  
+compiler - it will convert the whole code at a time to bineary langunage so that metchin will understand 
+interpreters -line by line the js code which we write that will be converted into metchin understandble code(binary (0101001))
+
+
+Fuatures :
+intractive websites
+event handling 
+fast 
+we can use with react , next , angular, vue
+we can connect with nodejs server 
+it is platform independent 
+interpreterd
+
+
+variables :
+
+var - functional scope 
+let -let and const are the blocl scope it means the will exigute inside the blok of code 
+const - cant be replaceble 
+
+data types : data types are type data which is definding like numbers , words , true or false etc....and this are two types 
+
+primitive  
+
+number - num , integers , roman etc....
+boolen - true /false
+string - `hi`, " hello", 'how are you'.
+bigint - ?
+symbol - ?
+null - 
+undefind - if there is no value assigned or there is no value it returns undefind
+
+and non-premitive 
+
+array - combination of elements 
+and it is index declarations like below 
+arr:[1,2,3,4,5,6]
+     0 1 2 3 4 5
+
+
+object- key value pares 
+like set of details 
+phone is an object in phone there are multipul details like below 
+
+phone { 
+ ram:8gm
+ storage:256gb
+ camara:80pxl
+ battary : 5000mah
+ sound:2b
+ fuatures etc...
+}
+
+
+
+
+
+
+
+functions 
+
+
+
+
+
+
+
+
+
+react task :
+
+Here’s a React interview question you can use — phrased naturally like it would be asked in a real interview:
+
+
+---
+
+💬 React Interview Question: Currency Converter App
+
+You need to build a Currency Converter component in React.
+
+Requirements:
+
+1. The component should fetch real-time currency conversion rates from a public API (like ExchangeRate API or any mock API).
+
+
+2. There should be:
+
+An input box where the user can enter an amount.
+
+A dropdown to select the source currency (e.g., USD, EUR, INR, etc.).
+
+Another dropdown to select the target currency.
+
+A button to swap the source and target currencies.
+
+
+
+3. When the user enters a value or changes a currency, it should automatically update the converted amount on the UI.
+
+
+4. Handle loading and error states properly when fetching data.
+
+
+5. Use React hooks (useState, useEffect) for managing state and side effects.
+
+
+
+Bonus:
+
+Debounce the API call so it doesn’t trigger for every keystroke.
+
+Style it neatly with minimal CSS or Tailwind.
+
+
+
+---
+
+Example Prompt (for candidates):
+
+> Implement a CurrencyConverter React component that fetches currency rates from an API and displays converted values. Include input for amount, two currency dropdowns, a swap button, and show the converted result dynamically.
+
+
+
+
+---
+
+Would you like me to also write the sample solution code for this question (with API fetch, swap logic, and debounce)?
+
+
+
+

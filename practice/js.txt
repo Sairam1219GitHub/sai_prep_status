@@ -1,0 +1,158 @@
+class -2 
+
+how to see the JS o/p in the broser?
+there are two ways one is internal and external 
+In the html file add script tag and write the code in between the tags
+example-1 :
+
+        <script> 
+            console.log("hello html");
+        </script>
+example-2 :
+
+create a script tag and add src in the first tag line like below so that js
+file import into html this is another way  
+
+<script src="./file_name"></script>
+
+
+what is console.log(a);
+this is used to print the output
+
+
+Data Types :
+
+there are two types of datatypes 
+primitive and non-primitive
+number        functions
+boolean         objects
+string          arrays
+null
+undefined
+bigint
+
+
+OPERATORS - are used to perform some operations 
+
+arthamatic operators 
++, -, =, %, * 
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a%b);
+console.log(a=b);
+console.log(a/b);
+++
+--
+
+
+ASSIGNMENT OPERATORS
+a=10; b=20;
+a=a+10
+a=a-10;
++=,-=, *=, %=, /=, **=
+
+
+comaparison OPERATORS 
+==,
+===,
+!=,
+!==,
+<=,
+>=,
+<,
+>
+
+
+comaparison 
+increment 
+numerical 
+
+LOGICAL OPERATORS
+
+&& - LOGICAL AND 
+0 0 = 0
+0 1 = 0
+1 0 = 0
+1 1 = 1
+
+|| - LOGICAL OR
+
+0 0 = 0
+0 1 = 1 
+1 0 = 1
+1 1 = 1
+
+! - LOGICAL NOT 
+
+!0 = 1
+!1 = 0
+
+Type operators:
+
+typeof it will show the datatype of the value
+
+Example :
+
+var a =10;
+var b="hello";
+console.log(typeof (a));
+console.log(typeof b);
+
+
+pop up in js 
+
+ alert - it is used to display the pop up on your brouser 
+with okay button 
+
+ // alert("welcome to js");
+
+
+CONFIRM - this is used to conform from the user like it will display the msg and 
+making user to conform wether okay or cancle 
+
+// let user=conform("are you 18+");
+// console.log(user);
+
+// confirm("are you 18+");
+
+// let cnf=confirm("are you 18+");
+// console.log(cnf);
+
+
+// var age=confirm("enter your age");
+
+// if(age){
+//     console.log("your are eligible to use this site");
+//     }
+// else{
+//     console.log("your not eligible to use the site");
+    
+// }
+
+
+
+PROMPT - this is used to take input from the user  
+
+
+// let age=prompt("enter your age");
+// console.log(age);
+// if(age>=18){
+//     console.log("your are eligible to use this site");
+//     }
+// else{
+//     console.log("your not eligible to use the site");
+// }
+
+
+
+// let a =Number(prompt('enter a number'));
+// let b=Number(prompt("enter another number"));
+// alert('sum of two no:'+ (a+b));
+
+
+ARRAYS : is used to store set of different elements init the size of the array dinamic it is not fixed 
+
+ 
+ let arr = ['hello',1 ,true,0.99]
+
