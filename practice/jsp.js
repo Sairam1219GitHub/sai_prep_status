@@ -560,8 +560,14 @@
 // higher Order -- is a function which returns another function 
 
 
-let str='hello';
-let str1=' world';
-console.log(str+str1);
-console.log(str-str1);
-console.log(str.concat(str1));
+// let str='hello';
+// let str1=' world';
+// console.log(str+str1);
+// console.log(str-str1);
+// console.log(str.concat(str1));
+
+// let str='hello';
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+
